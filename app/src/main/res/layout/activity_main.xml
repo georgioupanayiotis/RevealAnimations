@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.revealanimations.panayiotisgeorgiou.revealanimations.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is an animated text!!"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/hideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Show"
+        android:textOff="Hide" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:src="@drawable/androidimage"
+        android:background="@android:color/holo_green_dark"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.67" />
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.panayiotisgeorgiou.net"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#ff24a333" />
+
+</LinearLayout>
